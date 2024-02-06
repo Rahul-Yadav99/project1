@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "poppins";
+  height: 100vh;
+  width: 100%;
+  font-size: 10px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  gap: 0.9rem;
+}
+.logo > span > a {
+  color: white;
+  background-color: #efaf00;
+  font-weight: 900;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.4rem;
+  transition: all ease 0.2s;
+}
+.logo > span > a:hover {
+  cursor: pointer;
+  color: #efaf00;
+  background-color: white;
+}
+header {
+  overflow: hidden;
+  height: 10%;
+  width: 100%;
+  background-color: #c5dcdd;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+navbar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.nav-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+}
+button {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: #efaf00;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: all ease 0.3s;
+  transform: translate(1);
+}
+button:hover {
+  box-shadow: 0.5rem 0.5rem 0rem #f4f1ed;
+  cursor: pointer;
+}
+
+/* ---------->Special button start here<---------- */
+.sp-bt {
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: all ease 0.3s;
+}
+.sp-bt > a {
+  color: white;
+}
+.sp-bt:hover {
+  background-color: #efaf00;
+  box-shadow: 0.5rem 0.5rem 0rem #f4f1ed;
+  cursor: pointer;
+  color: white;
+}
+.sp-bt:hover > a {
+  color: white;
+}
+/* ---------->Special button end here<---------- */
+.home-main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  margin-top: 8rem;
+}
+.home-left {
+  height: 100%;
+  width: 50%;
+  margin-top: 5rem;
+}
+.home-left > img {
+  height: 100%;
+  width: 100%;
+}
+.home-right {
+  height: 100%;
+  width: 50%;
+  margin-top: 5%;
+  padding-top: 2rem;
+}
+.home-right > p {
+  margin: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #212121;
+}
+.home-right > p > span {
+  color: #efaf00;
+  font-weight: 900;
+}
+.about-main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.about-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-left > h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 6rem 0;
+  color: #212121;
+}
+.about-left > h1 > span {
+  color: #efaf00;
+}
+.web-info {
+  width: 90%;
+}
+.web-info > p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #212121;
+}
+.web-info > p > span {
+  color: #efaf00;
+  font-weight: 900;
+}
+.about-right {
+  height: 100%;
+  width: 50%;
+}
+.about-right > img {
+  height: 50rem;
+  width: 100%;
+  margin-top: 9rem;
+}
+.product-main {
+  height: 350vh;
+  width: 100%;
+  margin-top: 10rem;
+}
+.men-shert {
+  margin-top: 10rem;
+  width: 100%;
+}
+.men-shert > h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0;
+  color: #212121;
+}
+.men-shert > h1 > span {
+  color: #efaf00;
+}
+
+.shirt {
+  margin-top: 5rem;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.s1 > img {
+  height: 80%;
+  width: 100%;
+  transition: all ease 1s;
+}
+.s1 > img:hover {
+  scale: 1.1;
+}
+.s1 {
+  overflow: hidden;
+}
+.s1 > p {
+  font-size: 1.3rem;
+  color: rgb(122, 119, 119);
+}
+.off-line {
+  text-decoration: line-through;
+  font-size: 1.3rem;
+  color: rgb(122, 119, 119);
+}
+
+.red {
+  color: red;
+}
+.men-pant {
+  width: 100%;
+}
+.pant {
+  margin-top: 5rem;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.p1 > img {
+  height: 80%;
+  width: 100%;
+  transition: all ease 1s;
+}
+.p1 > img:hover {
+  scale: 1.1;
+}
+.p1 {
+  overflow: hidden;
+}
+.p1 > p {
+  font-size: 1.3rem;
+  color: rgb(122, 119, 119);
+}
+.men-pant > h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0;
+  color: #212121;
+}
+.men-pant > h1 > span {
+  color: #efaf00;
+}
+.top {
+  margin-top: 5rem;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.t1 {
+  overflow: hidden;
+}
+.t1 > img {
+  height: 80%;
+  width: 100%;
+  transition: all ease 1s;
+}
+.t1 > img:hover {
+  scale: 1.1;
+}
+.t1 > p {
+  font-size: 1.3rem;
+  color: rgb(122, 119, 119);
+}
+.women-top > h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0;
+  color: #212121;
+}
+.women-top > h1 > span {
+  color: #efaf00;
+}
+.jeans {
+  margin-top: 5rem;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.j1 {
+  overflow: hidden;
+}
+.j1 > img {
+  height: 80%;
+  width: 100%;
+  transition: all ease 1s;
+  object-fit: cover;
+}
+.j1 > p {
+  font-size: 1.3rem;
+  color: rgb(122, 119, 119);
+}
+.j1:hover > img {
+  scale: 1.1;
+}
+.women-pant > h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0;
+  color: #212121;
+}
+.women-pant > h1 > span {
+  color: #efaf00;
+}
